@@ -1,0 +1,21 @@
+.SearchNews {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid #43434370;
+  width: fit-content;
+}
+
+.SearchNews button {
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.SearchNews input {
+  border: none;
+  width: 50vw;
+}
+
+.SearchNews input:focus {
+  outline: none;
+}
